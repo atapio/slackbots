@@ -19,8 +19,8 @@ then
 fi
 
 # Confirm that tools exist
-PUP=$(command -v "$PUP" >/dev/null 2>&1 || (echoerr "pup not found"; exit 2))
-JQ=$(command -v "$JQ" >/dev/null 2>&1 || (echoerr "jq not found"; exit 3))
+PUP=$(command -v "$PUP" || (echoerr "pup not found"; exit 2))
+JQ=$(command -v "$JQ" || (echoerr "jq not found"; exit 3))
 
 SLACK_JSON="{ text: ., channel: \"#$CHANNEL\", \"username\": \"$BOT_USERNAME\", \"icon_emoji\": \":$BOT_EMOJI:\"}"
 
