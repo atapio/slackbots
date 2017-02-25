@@ -20,5 +20,5 @@
 # For more information see the manual pages of crontab(5) and cron(8)
 #
 # m h  dom mon dow   command
-00 10 * * 1-5 /home/ansible/slackbots/mau-kas.bash > /dev/null
-#00 10 * * 1-5 /home/ansible/slackbots/limetti.bash > /dev/null
+00 10 * * 1-5 /slackbots/mau-kas.bash > /dev/null
+#00 10 * * 1-5 /slackbots/limetti.bash > /dev/null
