@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-MENU_URL="http://www.mau-kas.fi/ravintola.html?listtype=lunch&ci=0"
+MENU_URL="https://www.mau-kas.fi/ravintola.html?listtype=lunch&ci=0"
 CHANNEL=${CHANNEL:-lounas}
 BOT_USERNAME=${BOT_USERNAME:-MAU-KAS}
 BOT_EMOJI=${BOT_EMOJI:-stew}
