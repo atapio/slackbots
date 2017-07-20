@@ -4,4 +4,5 @@ services:
   cron:
     env_file: .env
     image: atapio/slackbots
+    build: .
     restart: always
